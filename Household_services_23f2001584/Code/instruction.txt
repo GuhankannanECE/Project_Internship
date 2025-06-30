@@ -1,0 +1,11 @@
+1)creat a virtual environment ( python -m venv env  )
+2)activate virtual environment(env\Scripts\activate )
+3)pip install -r Code/requirements.txt 
+4)python main.py
+For celery:
+5)celery -A main:celery_app worker --pool=solo --loglevel=info  
+6)celery -A main:celery_app beat --loglevel=info
+7)Ubuntu
+8) ~/go/bin/MailHog
+
+ 
